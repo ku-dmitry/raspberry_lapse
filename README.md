@@ -22,8 +22,9 @@ Save this script (CTRL + X) and "Y" Rebooting the device will mean this script e
 # Turning lapse off
 
 By default it starts recording timelapses every time you power your Raspberry up.
-If you want to turn it off for one session use 'top' console command to find out the python process ID (PID)
+If you want to turn it off for one session use `top` console command to find out the python process ID (PID)
 Then just execute
+
     sudo kill PID
     
 Have fun!
